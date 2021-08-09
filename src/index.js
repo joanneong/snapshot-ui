@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "tailwindcss/tailwind.css";
+
+import Homepage from "./homepage/Homepage.js";
+import reportWebVitals from "./analytics/reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <Homepage />
   </React.StrictMode>,
   document.getElementById('root')
 );
