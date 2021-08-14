@@ -1,4 +1,33 @@
 .videoThumbnail {
-  width: 290px;
+  width: 280px;
   height: auto;
+}
+
+.cardDiv::before {
+  content: '';
+  position: absolute;
+  background-size: contain;
+  background-image: url(../assets/tape.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  right: 0px;
+  z-index: 999;
+}
+
+.cardDiv::after {
+  content: '';
+  position: absolute;
+  background-size: contain;
+  background-image: url(../assets/tape.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  bottom: 0px;
+  z-index: 999;
+}
+
+.cardDiv {
+  width: 24rem;
+  height: 22rem;
 }
