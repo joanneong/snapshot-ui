@@ -1,0 +1,7 @@
+.icon {
+  float: right;
+}
+
+#search-icon {
+  z-index: 2;
+}

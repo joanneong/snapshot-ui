@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "tailwindcss/tailwind.css";
+import "./common.css";
 
-import Homepage from "./homepage/Homepage.js";
+import Homepage from "./components/homepage/Homepage.js";
 import reportWebVitals from "./analytics/reportWebVitals";
 
 ReactDOM.render(
